@@ -1,0 +1,14 @@
+/home/juanbg/Documents/json-crud/src/main/java/io/juanbg/jsoncrud/dto/Customer.java
+/home/juanbg/Documents/json-crud/src/main/java/io/juanbg/jsoncrud/JsonCrudApplication.java
+/home/juanbg/Documents/json-crud/src/main/java/io/juanbg/jsoncrud/dto/Payload.java
+/home/juanbg/Documents/json-crud/src/main/java/io/juanbg/jsoncrud/dao/CustomerDAO.java
+/home/juanbg/Documents/json-crud/src/main/java/io/juanbg/jsoncrud/dto/ResponseDTO.java
+/home/juanbg/Documents/json-crud/src/main/java/io/juanbg/jsoncrud/dao/CustomerDAOImpl.java
+/home/juanbg/Documents/json-crud/src/main/java/io/juanbg/jsoncrud/bo/CustomersBO.java
+/home/juanbg/Documents/json-crud/src/main/java/io/juanbg/jsoncrud/dto/containers/GetAllContainer.java
+/home/juanbg/Documents/json-crud/src/main/java/io/juanbg/jsoncrud/dto/HeaderResponse.java
+/home/juanbg/Documents/json-crud/src/main/java/io/juanbg/jsoncrud/bo/CustomersBOImpl.java
+/home/juanbg/Documents/json-crud/src/main/java/io/juanbg/jsoncrud/controller/CustomersController.java
+/home/juanbg/Documents/json-crud/src/main/java/io/juanbg/jsoncrud/dto/containers/GetOneContainer.java
+/home/juanbg/Documents/json-crud/src/main/java/io/juanbg/jsoncrud/dto/CustomerDB.java
+/home/juanbg/Documents/json-crud/src/main/java/io/juanbg/jsoncrud/utils/BeanValidator.java

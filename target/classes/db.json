@@ -1,0 +1,12 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "name": "Alberto",
+      "paternalLastName": "Bautista",
+      "maternalLastname": "Grande",
+      "birthYear": "1995-11-15",
+      "gender": "M"
+    }
+  ]
+}
