@@ -70,6 +70,7 @@ public class CustomersController {
 
         try {
             BeanValidator.validate(customer);
+            customersBO.updateUser(uid, id, customer);
             return new ResponseEntity<>(HttpStatus.OK);
         } catch (Exception e) {
             return BeanValidator.validaException(e, uid);

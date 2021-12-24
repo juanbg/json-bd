@@ -59,10 +59,10 @@ public class CustomerDAOImpl implements Serializable, CustomerDAO {
     }
 
     @Override
-    public void updateCustomer(String uid, Customer newCustomer) throws IOException {
+    public void updateCustomer(String uid, Customer newCustomer, int id) throws IOException {
         CustomerDB bd = mapper.readValue(Paths.get(route).toFile(), CustomerDB.class);
 
-        bd.getCustomers().removeIf(customer -> newCustomer.getId().equals(customer.getId()));
+        bd.getCustomers().removeIf(customer -> customer.getId().equals(id));
         bd.getCustomers().add(newCustomer);
 
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(Paths.get(route).toFile(), false)));

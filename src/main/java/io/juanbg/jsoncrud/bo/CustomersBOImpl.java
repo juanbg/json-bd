@@ -56,7 +56,7 @@ public class CustomersBOImpl implements Serializable, CustomersBO {
         oldCustumer.setGender(customer.getGender());
 
 
-        customerDAO.updateCustomer(uid, customer);
+        customerDAO.updateCustomer(uid, customer, id);
 
 
     }

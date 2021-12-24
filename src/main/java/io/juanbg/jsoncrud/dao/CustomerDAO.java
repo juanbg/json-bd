@@ -10,7 +10,7 @@ public interface CustomerDAO {
     void creationCustomer(String uid, Customer customer) throws Exception;
     Customer readCustomer(String uid, Integer id) throws IOException;
     List<Customer> readAllCustomer(String uid) throws IOException;
-    void updateCustomer(String uid, Customer customer) throws IOException;
+    void updateCustomer(String uid, Customer customer, int id) throws IOException;
     void deleteCustomer(String uid, Integer id) throws IOException;
 
 }
