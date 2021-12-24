@@ -52,11 +52,12 @@ public class CustomersBOImpl implements Serializable, CustomersBO {
         oldCustumer.setName(customer.getName());
         oldCustumer.setPaternalLastName(customer.getPaternalLastName());
         oldCustumer.setMaternalLastname(customer.getMaternalLastname());
+        oldCustumer.setEmail(customer.getEmail());
         oldCustumer.setBirthYear(customer.getBirthYear());
         oldCustumer.setGender(customer.getGender());
 
 
-        customerDAO.updateCustomer(uid, customer, id);
+        customerDAO.updateCustomer(uid, oldCustumer, id);
 
 
     }
