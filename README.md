@@ -7,5 +7,7 @@ To execute the process, it is recommended to build the image and run the contain
 
 Commands used: 
 
+```sh
 docker build -t juanbg/json-crud-v4 .
 docker run -p8080:8080 juanbg/json-crud-v4
+```
